@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+      <div class="dropdown button-dropdown">
+        <div ngbDropdown>
+          <a class="dropdown-toggle" ngbDropdownToggle>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+          </a>
+           <div ngbDropdownMenu>
+             <a class="dropdown-header">ทัวร์ฟาร์ม</a>
+             <a class="dropdown-item" href="\landing">ข้อมูลของฟาร์ม</a>
+             <a class="dropdown-item" href="\profile">ผลงานของฟาร์ม</a>
+             <a class="dropdown-item" href="\login">แอดมินเข้าสู่ระบบ</a>
+           </div>
+         </div>
+      </div>
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" ngbTooltip="ฟาร์มกุ้งยายฉิม">
+                SHRIMP FRAM
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/landing">
+                      <p><i class="now-ui-icons objects_globe fa-spin"></i>ข้อมูลของฟาร์ม</p>
+                  </a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/profile">
+                      <p> <i class="now-ui-icons files_paper"></i>ผลงานของฟาร์ม</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-twitter fa-spin"></i>
+                    <p class="d-lg-none d-xl-none">Twitter</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-facebook-square fa-spin"></i>
+                    <p class="d-lg-none d-xl-none">Facebook</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow us on Line" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-line fa-spin"></i>
+                    <p class="d-lg-none d-xl-none">Line</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-instagram fa-spin"></i>
+                    <p class="d-lg-none d-xl-none">Instagram</p>
+                  </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

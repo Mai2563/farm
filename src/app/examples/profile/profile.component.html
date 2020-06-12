@@ -1,0 +1,108 @@
+<div class="wrapper">
+    <div class="page-header page-header-small">
+        <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url('assets/img/bg5.jpg') ;">
+        </div>
+        <div class="container">
+            <div class="content-center">
+                <h3 class="title">ติอต่อสั่งซื้อได้ตามช่องทางของเพจ</h3>
+                <p class="category">ยอดผู้ติดตามเพจ Shrimp Farm</p>
+                <div class="content">
+                    <div class="social-description">
+                        <h2>419</h2>
+                        <p>Facebook</p>
+                    </div>
+                    <div class="social-description">
+                        <h2>30</h2>
+                        <p>Twitter</p>
+                    </div>
+                    <div class="social-description">
+                        <h2>200</h2>
+                        <p>Instagram</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+          <div class="button-container">
+              <a href="/profile" class="btn btn-success btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="/profile" class="btn btn-success btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="/profile" class="btn btn-success btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+          </div>
+          <div class="row">
+                <div class="col-md-12">
+                    <h4 class="title text-center">ผลงาน</h4>
+                      <ngb-tabset [justify]="'center'" type="pills" class="nav nav-pills nav-pills-primary  nav-pills-just-icons justify-content-center tab-space">
+                          <ngb-tab>
+                            <ng-template ngbTabTitle>
+                              <i class="now-ui-icons design_image"></i>
+                            </ng-template>
+                              <ng-template ngbTabContent>
+                                <div class="row">
+                                  <div class="col-md-10 ml-auto mr-auto">
+                                      <div class="row collections">
+                                          <div class="col-md-6">
+                                              <img src="assets/img/bg1.jpg" alt="" class="img-raised">
+                                              <img src="assets/img/bg3.jpg" alt="" class="img-raised">
+                                          </div>
+                                          <div class="col-md-6">
+                                              <img src="assets/img/bg8.jpg" alt="" class="img-raised">
+                                              <img src="assets/img/bg7.jpg" alt="" class="img-raised">
+                                          </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </ng-template>
+                          </ngb-tab>
+                          <ngb-tab>
+                            <ng-template ngbTabTitle>
+                              <i class="now-ui-icons location_world"></i>
+                            </ng-template>
+                              <ng-template ngbTabContent>
+                                <div class="row">
+                                  <div class="col-md-10 ml-auto mr-auto">
+                                      <div class="row collections">
+                                          <div class="col-md-6">
+                                              <img src="assets/img/bg6.jpg" class="img-raised">
+                                              <img src="assets/img/bg11.jpg" alt="" class="img-raised">
+                                          </div>
+                                          <div class="col-md-6">
+                                              <img src="assets/img/bg7.jpg" alt="" class="img-raised">
+                                              <img src="assets/img/bg8.jpg" alt="" class="img-raised">
+                                          </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </ng-template>
+                          </ngb-tab>
+                      </ngb-tabset>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" data-background-color="black">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">
+                            MIT License
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                &copy;
+              {{data | date: 'yyyy'}},
+                <a href="" target="_blank">shrimp Farm</a>.
+            </div>
+        </div>
+    </footer>
+</div>
